@@ -13,7 +13,7 @@ namespace CSerialTest
     {
         static void Main()
         {
-            var serial = new CSerialWrapper.CSeriallWrapper("COM6");
+            var serial = new CSerialWrapper.CSerialWrapper("COM6");
             serial.Open();
 
             while (true)

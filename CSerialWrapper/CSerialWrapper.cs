@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSerialWrapper
 {
-    public class CSeriallWrapper
+    public class CSerialWrapper
     {
         #region Dll Imports
 
@@ -55,7 +55,7 @@ namespace CSerialWrapper
         public int BaudRate { get; set; }
         public string NewLine { get; set; }
 
-        public CSeriallWrapper(string portName, int baudRate = 9600, string newLine = "\n")
+        public CSerialWrapper(string portName, int baudRate = 9600, string newLine = "\n")
         {
             DeviceHandler = create_serial();
 
